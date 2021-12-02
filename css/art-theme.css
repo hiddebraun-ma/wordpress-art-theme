@@ -8,13 +8,8 @@ body {
     margin: 20px 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
-}
-
-#main-menu ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    justify-content: flex-start;
 }
 
 #main-menu li {
