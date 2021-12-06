@@ -10,15 +10,17 @@ body {
   display: flex;
   list-style: none;
   justify-content: flex-start;
-}
-#main-menu li {
-  padding: 10px;
-  background-color: #0A246A;
-  margin-right: 10px;
-}
-#main-menu li a {
-  padding: 10px;
-  color: #ffffff;
+
+  li {
+    padding: 10px;
+    background-color: #0A246A;
+    margin-right: 10px;
+
+    a {
+      padding: 10px;
+      color: #ffffff;
+    }
+  }
 }
 
 a:hover {
@@ -28,17 +30,17 @@ a:hover {
 
 #main-menu .current-menu-item {
   background-color: #ffffff;
-}
-#main-menu .current-menu-item a {
-  color: #0A246A;
-}
-#main-menu .current-menu-item a:hover {
-  color: #0A246A;
+
+  a {
+    color: #0A246A;
+
+    &:hover {
+      color: #0A246A;
+    }
+  }
 }
 
 #page {
   padding: 20px;
   background-color: #ffffff;
 }
-
-/*# sourceMappingURL=art-theme.css.map */
